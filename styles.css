@@ -1,0 +1,92 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: wheat;
+    margin: auto;
+    padding: 50px;
+}
+h1{
+    background-color: silver;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: max-content;
+    text-align: center;
+    justify-self: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.input-container{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    width: auto;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-container{
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding: px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+button{
+    background-color: wheat;
+    padding: 10px;
+    width: max-content;
+    color: black;
+    border-radius: 10px;
+    border: 0.5px var;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover{
+    background-color: grey;
+}
+p{
+    text-align: center;
+    background-color:silver;
+    padding: 10px;
+    width: max-content;
+    color: black;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    justify-self: center;
+    margin: auto;
+}
